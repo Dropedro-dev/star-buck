@@ -107,6 +107,7 @@ border: 6px solid #117050;
 border-radius: 50%;
 margin-right: 40px;
 }
+
 .area1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -183,6 +184,7 @@ grid-template-columns: 1fr 1fr;
     background-size: cover;
     background-position: center;
 }
+
 .area4 {
    display: grid;
    grid-template-columns: 450px 1fr;
@@ -191,13 +193,28 @@ grid-template-columns: 1fr 1fr;
 .area4--content {
     padding: 150px 80px;
 }
-
 .area4--text {
     margin-bottom: 50px;
     line-height: 25px;
 }
-
 .area4--img {
     background-image: url(../images/bg3.jpg);
     background-position: left;
+}
+
+.area5 {
+    background-image: url(../images/bg4.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 80px;
+    text-align: center;
+}
+footer a {
+    color: #FFF;
 }
